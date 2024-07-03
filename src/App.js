@@ -42,15 +42,6 @@ function App() {
 
     return () => unsubscribe();
   }, [navigate]);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  if (!user) {
-    return <div>Please log in to access this application.</div>;
-  }
-
   return (
     <div className="app">
       <header className="bg-blue-500 text-white p-4">
