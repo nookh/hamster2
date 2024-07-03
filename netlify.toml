@@ -1,8 +1,10 @@
 [build]
   command = "npm run build"
   publish = "build"
-  command = "npm run start-bot"
 [[redirects]]
   from = "/*"
   to = "/public/index.html"
   status = 200
+[dev]
+  command = "npm start"
+  command = "npm run start-bot"
