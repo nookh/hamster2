@@ -6,5 +6,4 @@
   to = "/public/index.html"
   status = 200
 [dev]
-  command = "npm start"
   command = "npm run start-bot"
