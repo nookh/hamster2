@@ -4,12 +4,12 @@ import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
   // Replace with your Firebase configuration
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCSpdeMRi1fyFY1lczdXZ9v7ZYMkdaU5OA",
+  authDomain: "hamster-20e90.firebaseapp.com",
+  projectId: "hamster-20e90",
+  storageBucket: "hamster-20e90.appspot.com",
+  messagingSenderId: "862566657650",
+  appId: "1:862566657650:web:e05867d566ff2d06581ceb"
 };
 
 const app = initializeApp(firebaseConfig);
