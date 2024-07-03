@@ -5,9 +5,6 @@ import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from './firebase';
 
 function App() {
-  const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const navigate = useNavigate();
   return (
     <div className="app">
       <header className="bg-blue-500 text-white p-4">
